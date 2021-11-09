@@ -16,6 +16,7 @@ Unpack `dropinfiles.rar` into current directory
 
 ```
 python3 test.py
+Generates new file using colorpicker (this is the best option)
 ```
 
 This will generate a file named `output-shaders(rename-me)`
