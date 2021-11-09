@@ -27,13 +27,13 @@ def getColors(shaderLoc,daColor):
     
 
 def editShader():
-    src,out = "shaders","whatthefuck2"
+    src,out = "shaders","output-shaders(rename-me)" #shaders is input file (supplied on github within rar file) #whatthefuck2 is output file
     env = UnityPy.load(src)
     for obj in env.objects:
         
         if obj.type.name == "Shader":
             
-            if obj.path_id == 8646871023065948827:
+            if obj.path_id == 8646871023065948827: #player stuff
                 person_shader = obj.read_typetree();
 
                 person_shader["m_ParsedForm"]["m_PropInfo"]["m_Props"][0]["m_Description "] = 1;
@@ -41,7 +41,7 @@ def editShader():
                 person_shader["m_ParsedForm"]["m_PropInfo"]["m_Props"][0]["m_DefValue[0]"] = 1;
                 person_shader["m_ParsedForm"]["m_PropInfo"]["m_Props"][0]["m_DefValue[1]"] = 1;
                 person_shader["m_ParsedForm"]["m_PropInfo"]["m_Props"][0]["m_DefValue[2]"] = 1;
-                person_shader["m_ParsedForm"]["m_PropInfo"]["m_Props"][0]["m_DefValue[3]"] = 1;
+                person_shader["m_ParsedForm"]["m_PropInfo"]["m_Props"][0]["m_DefValue[3]"] = 255;
 
 
                 visible = person_shader["m_ParsedForm"]["m_PropInfo"]["m_Props"][1];
@@ -52,12 +52,12 @@ def editShader():
                 print('edited '+str(obj.path_id))
 
 
-            if obj.path_id == -9098473984068178372 or obj.path_id == 5767049091772583961:
+            if obj.path_id == -9098473984068178372 or obj.path_id == 5767049091772583961: #Items stuff
                 item_shader = obj.read_typetree();
                 item_shader["m_ParsedForm"]["m_PropInfo"]["m_Props"][0]["m_DefValue[0]"] = 1;
                 item_shader["m_ParsedForm"]["m_PropInfo"]["m_Props"][0]["m_DefValue[1]"] = 1;
                 item_shader["m_ParsedForm"]["m_PropInfo"]["m_Props"][0]["m_DefValue[2]"] = 1;
-                item_shader["m_ParsedForm"]["m_PropInfo"]["m_Props"][0]["m_DefValue[3]"] = 1;
+                item_shader["m_ParsedForm"]["m_PropInfo"]["m_Props"][0]["m_DefValue[3]"] = 255;
 
 
                 item_p1 = item_shader["m_ParsedForm"]["m_PropInfo"]["m_Props"][1];
@@ -76,7 +76,9 @@ def editShader():
         f.write(new_file)
     with open(out, "ab") as f:
         f.write(randbytes(9999999))
-    truncate = os.system("truncate.exe "+out+" 62678698")
+        
+    #truncate = os.system("truncate.exe "+out+" 62678698")
+    os.truncate(out,62678698)
     print('Finished!')
 
 
