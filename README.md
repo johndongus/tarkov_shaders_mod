@@ -1,6 +1,6 @@
 
 ### Tarkov Shaders "Mod"
-
+![Image](https://cdn.discordapp.com/attachments/774432062367203328/903140988107780156/unknown.png)
 
 # Simple Method:
 Download `dropinfiles.rar`, files to extract:
@@ -16,6 +16,7 @@ Note: File below is for no-recoil
 
 
 # Script Method (not needed, but safer)
+![Image](https://cdn.discordapp.com/attachments/908025136395993118/908026076016558100/unknown.png)
 ```
 git clone https://github.com/johndongus/tarkov_shaders_mod/
 cd tarkov_shaders_mod
