@@ -1,5 +1,5 @@
 **Note if you are having issues running test.py, primarly a blank output. Use test-fix.py**
-
+**EXE version of color chooser added, use at your own risk concidering its pre-compiled**
 
 ### Tarkov Shaders "Mod"
 ![Image](https://cdn.discordapp.com/attachments/774432062367203328/903140988107780156/unknown.png)
