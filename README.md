@@ -45,5 +45,6 @@ Shader file packID's:
 ```
 
 
-
+## Errors and how to fix them
+`AttributeError: 'Environment' object has no attribute 'file'. Did you mean: 'files'?` - **This means that the file `shaders` does not exist in the same directory as the color picker**
 
