@@ -1,3 +1,5 @@
+**Note if you are having issues running test.py, primarly a blank output. Use test-fix.py**
+
 
 ### Tarkov Shaders "Mod"
 ![Image](https://cdn.discordapp.com/attachments/774432062367203328/903140988107780156/unknown.png)
@@ -26,6 +28,7 @@ pip3 install UnityPy dearpygui
 
 ```
 python3 test.py
+*Make sure file "shaders" from downloaded rar file is in same folder as test.py*
 Generates new file using colorpicker (this is the best option)
 ```
 
