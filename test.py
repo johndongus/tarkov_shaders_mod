@@ -78,7 +78,7 @@ def editShader():
         f.write(randbytes(9999999))
         
     #truncate = os.system("truncate.exe "+out+" 62678698")
-    os.truncate(out,62678698)
+    os.truncate(out,64898506)
     print('Finished!')
 
 
