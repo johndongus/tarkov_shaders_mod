@@ -2,16 +2,25 @@
 ### Tarkov Shaders "Mod"
 
 
+# Simple Method:
+Download `dropinfiles.rar`, files to extract:
+
+shaders - `C:\Battlestate Games\EFT\EscapeFromTarkov_Data\StreamingAssets\Windows`
+
+Note: File below is for no-recoil
+*playersuperior.bundle* - `C:\Battlestate Games\EFT\EscapeFromTarkov_Data\StreamingAssets\Windows\assets\content\commonprefabs`
+
+
+Unpack `dropinfiles.rar` into current directory
+`dropinfiles.rar` - https://mega.nz/file/IEdD3aZJ#wOg3wvnBJ_zNpQ32ugAniuolXtA4wwr1xdC7BEyNlTM
+
+
+# Script Method (not needed, but safer)
 ```
 git clone https://github.com/johndongus/tarkov_shaders_mod/
 cd tarkov_shaders_mod
 pip3 install UnityPy dearpygui
 ```
-
-Unpack `dropinfiles.rar` into current directory
-
-## Run
-
 
 
 ```
@@ -31,11 +40,5 @@ Shader file packID's:
 ```
 
 
-# If you dont want do do anything above:
 
-Download `dropinfiles.rar`, files to extract:
-
- *shaders* - `C:\Battlestate Games\EFT\EscapeFromTarkov_Data\StreamingAssets\Windows`
-
-Norecoil *playersuperior.bundle* - `C:\Battlestate Games\EFT\EscapeFromTarkov_Data\StreamingAssets\Windows\assets\content\commonprefabs`
 
