@@ -4,6 +4,8 @@
 
 # Simple Method:
 Download `dropinfiles.rar`, files to extract:
+`dropinfiles.rar` - https://mega.nz/file/IEdD3aZJ#wOg3wvnBJ_zNpQ32ugAniuolXtA4wwr1xdC7BEyNlTM
+
 
 shaders - `C:\Battlestate Games\EFT\EscapeFromTarkov_Data\StreamingAssets\Windows`
 
@@ -11,8 +13,6 @@ Note: File below is for no-recoil
 *playersuperior.bundle* - `C:\Battlestate Games\EFT\EscapeFromTarkov_Data\StreamingAssets\Windows\assets\content\commonprefabs`
 
 
-Unpack `dropinfiles.rar` into current directory
-`dropinfiles.rar` - https://mega.nz/file/IEdD3aZJ#wOg3wvnBJ_zNpQ32ugAniuolXtA4wwr1xdC7BEyNlTM
 
 
 # Script Method (not needed, but safer)
