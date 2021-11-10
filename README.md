@@ -42,6 +42,7 @@ Shader file packID's:
 8646871023065948827 - player
 9098473984068178372 - items / entites
 5767049091772583961 - items / entites
+7120674869574017826 - animations (no recoil)
 ```
 
 
