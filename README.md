@@ -5,7 +5,7 @@
 ### Tarkov Shaders "Mod"
 ![Image](https://cdn.discordapp.com/attachments/774432062367203328/903140988107780156/unknown.png)
 
-# Simple Method:
+# Simple Method (easy detection):
 Download `dropinfiles.rar`, files to extract:
 `dropinfiles.rar` - https://mega.nz/file/IEdD3aZJ#wOg3wvnBJ_zNpQ32ugAniuolXtA4wwr1xdC7BEyNlTM
 
@@ -16,9 +16,11 @@ Note: File below is for no-recoil
 *playersuperior.bundle* - `C:\Battlestate Games\EFT\EscapeFromTarkov_Data\StreamingAssets\Windows\assets\content\commonprefabs`
 
 
+# Easing detection
+Highly recommend the use of the `scrambler.py` script for users who plan on using the drop in files, this will make the file unique.
 
 
-# Script Method (not needed, but safer)
+# Manual install (not needed, but safer)
 ![Image](https://cdn.discordapp.com/attachments/908025136395993118/908026076016558100/unknown.png)
 ```
 git clone https://github.com/johndongus/tarkov_shaders_mod/
