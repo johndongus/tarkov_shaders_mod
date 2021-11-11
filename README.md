@@ -5,16 +5,20 @@
 
 # Files:
 _colorpicker.py_ - **ESP color selection & file randomizationish**
+
 _scrambler.py_ - **Randomizes asset file**
+
 _norecoil.py_ - **Modify's existing playersuperior.bundle file to enable no-recoil** (Sketchy)
 
 # Usage:
 Download and unpack `shaders.rar` into directory with script or exe
+
 Run `scrambler.py` **_OR_** `colorpicker.py/test.exe`, colorpicker includes color picker
 
 # No-recoil usage
 
 Copy `playersuperior.bundle` from `C:\Battlestate Games\eftlive\EscapeFromTarkov_Data\StreamingAssets\Windows\assets\content\commonprefabs`
+
 Run `norecoil.py`, file should update in file explorer
 
  
