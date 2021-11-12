@@ -3,7 +3,7 @@
 # Usage: rename your modded shaders to `modshader` and the orginal shaders from latest patch into the same folder as this script
 ##
 modshaders = "modshaders"
-orginalshaders = "ogshaders"
+originalshaders = "ogshaders"
 assetPath = "C:/Battlestate Games/EFT/EscapeFromTarkov_Data/StreamingAssets/Windows/" #MAKE SURE THIS IS CORRECT!
 
 
@@ -18,6 +18,6 @@ while True:
         print("Escape from Tarkov Started, doing stuff...")
         copyfile(modshaders, assetPath+'shaders')
         time.sleep(20)
-        copyfile(orginalshaders, assetPath+'shaders')
+        copyfile(originalshaders, assetPath+'shaders')
         print("Done")
         break
