@@ -1,5 +1,11 @@
 **Note if you are having issues running colorpicker.py, primarly a blank output. Use colorpicker-fix.py**
 
+
+new shader dumps:
+https://mega.nz/file/1IUDAQjQ#v_dbnDgd6sc94enGvvneGosgP0u6PRNlQUTjaPf_B34
+https://mega.nz/file/VJcHXQAA#jjG9E1eXXe_TSkTqAjyMUlqaNOHaNZOwbWBFZpJAWkI
+
+
 ### Tarkov Shaders "Mod"
 ![Image](https://cdn.discordapp.com/attachments/774432062367203328/903140988107780156/unknown.png)
 
